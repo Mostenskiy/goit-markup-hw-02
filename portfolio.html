@@ -2,20 +2,29 @@
 <html lang="ru">
   <head>
     <meta charset="UTF-8" />
-    <meta name="description" content="Разработка сайтов под ключ"/>
+    <meta name="description" content="Разработка сайтов под ключ" />
     <title>WebStudio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,500;0,900;1,400;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
     <!-- Header section-->
     <header class="header">
-      <a class="logo" href="index.html">WebStudio</a>
+      <a class="logo" href="" lang="en"
+        >Web<span class="logo-accent">Studio</span></a
+      >
       <nav class="header-nav">
         <ul class="header-list">
           <li class="header-item">
-            <a class="header-link" href="">Студия</a>
+            <a class="header-link" href="./index.html">Студия</a>
           </li>
           <li class="header-item">
-            <a class="header-link" href="">Портфолио</a>
+            <a class="header-link akcent-nav" href="./portfolio.html">Портфолио</a>
           </li>
           <li class="header-item">
             <a class="header-link" href="">Контакты</a>
@@ -36,28 +45,28 @@
     <!-- Main section -->
     <main class="main">
       <!-- filter section -->
+      <h1 class="portfolio-title-hidden">список фильра</h1>
       <section class="filter">
         <ul class="filter-list">
           <li class="filter-item">
-            <button class="hero-button" type="button">Все</button>
+            <button class="filter-button" type="button">Все</button>
           </li>
           <li class="filter-item">
-            <button class="hero-button" type="button">Веб-сайты</button>
+            <button class="filter-button" type="button">Веб-сайты</button>
           </li>
           <li class="filter-item">
-            <button class="hero-button" type="button">Приложения</button>
+            <button class="filter-button" type="button">Приложения</button>
           </li>
           <li class="filter-item">
-            <button class="hero-button" type="button">Дизайн</button>
+            <button class="filter-button" type="button">Дизайн</button>
           </li>
           <li class="filter-item">
-            <button class="hero-button" type="button">Маркетинг</button>
+            <button class="filter-button" type="button">Маркетинг</button>
           </li>
         </ul>
       </section>
       <!--  portfolio section -->
       <section class="portfolio">
-        <h1 class="portfolio-title-hidden">список фильра</h1>
         <ul class="portfolio-list">
           <li class="portfolio-item">
             <img
@@ -163,7 +172,7 @@
     </main>
     <!-- Footer section -->
     <footer class="footer">
-      <p class="logo">WebStudio</p>
+      <p class="logo">Web<span class="logo-accent-footer">Studio</span></p>
       <address class="footer-address">
         <ul class="footer-list">
           <li class="footer-item">
