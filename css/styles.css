@@ -20,17 +20,20 @@ body {
   list-style: none;
 }
 .link {
+  text-decoration: none;
+  color: currentColor;
+}
+/* element styles */
+/* header */
+.header {
   letter-spacing: 0.02em;
   line-height: 1.142;
-  font-size: 14px;
-  text-decoration: none;
-  cursor: pointer;
-  color: var(--color-black);
   font-weight: 500;
   font-style: normal;
 }
-/* element styles */
-/* hedr */
+.header-list {
+  color: var(--color-black);
+}
 .logo {
   font-family: "Raleway";
   font-style: normal;
@@ -53,10 +56,7 @@ body {
   color: var(--color-blue);
 }
 
-.header-link-cont {
-  color: var(--color-grey);
-}
-/* hedr end */
+/* header end */
 /*hero*/
 .hero {
   background-color: var(--color-background-footer);
@@ -177,5 +177,4 @@ body {
 .portfolio-desc {
   font-size: 16px;
   line-height: 1.875;
-  color: var(--color-grey);
 }
